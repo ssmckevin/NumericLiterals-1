@@ -8,7 +8,9 @@ Kevin Wenas - <br>
 Colin Mcgough - 
 
 ## Task Division
-Brenden Johnson - Decimal Integer NFA & DFA Diagrams, DFA Class
+Brenden Johnson - NFA & DFA Diagrams, Decimal Integer DFA Class <br>
+- <br>
+-
 
 ## Decimal Integer
 

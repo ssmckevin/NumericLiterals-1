@@ -1,6 +1,6 @@
 class DecIntDFA:
     states = {"q1", "q2", "q3", "q4", "q5", "q6"} # Set of States of decimal integer DFA
-    acceptstates = {"q2", "q3"} # Set of accept States of decimal integer DFA
+    acceptstates = {"q2", "q4"} # Set of accept States of decimal integer DFA
     start_state = "q1" # initial state
     alphabet = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "_"}
     digit = alphabet - {"_"}
@@ -21,6 +21,7 @@ class DecIntDFA:
         state = self.start_state # set start state
         for char in str: # Step through characters in input
             state = self.transition[state](char) # apply lambda based on state
+            
         if state in self.acceptstates: 
             return True # accept if final state is in accept states
         else:

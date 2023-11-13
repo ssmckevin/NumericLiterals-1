@@ -1,17 +1,22 @@
 from DecIntDFA import DecIntDFA
+# from OctIntDFA import OctIntDFA
+# from HexIntDFA import HexIntDFA
 
 def main():
+    print("Please enter Decimal, Octal, or Hexadecimal integer literal to test validity.")
     str = input(">>")
     decDFA = DecIntDFA()
+    # octDFA = OctIntDFA()
+    # hexDFA = HexIntDFA()
     decAccepts = decDFA.accepts(str)
-    octAccepts = False
-    hexAccepts = False
+    # octAccepts = octDFA.accepts(str)
+    # hexAccepts = hexDFA.accepts(str)
     if(decAccepts):
         print("Decimal Integer Accepted")
-    elif(octAccepts):
-        print("Octal Integer Accepted")
-    elif(hexAccepts):
-        print("Hexadecimal Integer Accepted")
+    # elif(octAccepts):
+    #     print("Octal Integer Accepted")
+    # elif(hexAccepts):
+    #     print("Hexadecimal Integer Accepted")
     else:
         print("Rejected.")
     

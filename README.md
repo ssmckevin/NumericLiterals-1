@@ -9,8 +9,8 @@ Colin Mcgough -
 
 ## Task Division
 Brenden Johnson - NFA & DFA Diagrams, Decimal Integer DFA Class <br>
-- <br>
--
+ <br>
+
 
 ## Decimal Integer
 
@@ -25,11 +25,6 @@ digit        ::=  "0"..."9"
 ![alt text](NFADiagrams/DecIntNFA.jpg?raw=true)
 
 
-### DFA
-
-![alt text](DFADiagrams/DecIntDFA.jpg?raw=true)
-
-
 ## Octal Integer
 
 ```python
@@ -40,11 +35,6 @@ octdigit     ::=  "0"..."7"
 ### NFA
 
 ![alt text](NFADiagrams/OctIntNFA.jpg?raw=true)
-
-
-### DFA
-
-![alt text](DFADiagrams/OctIntDFA.jpg?raw=true)
 
 
 ## Hexadecimal Integer
@@ -58,11 +48,6 @@ digit        ::=  "0"..."9"
 ### NFA
 
 ![alt text](NFADiagrams/HexIntNFA.jpg?raw=true)
-
-
-### DFA
-
-![alt text](DFADiagrams/HexIntDFA.jpg?raw=true)
 
 
 ## Floating Point Literals

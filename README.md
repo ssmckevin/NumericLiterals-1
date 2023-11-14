@@ -79,4 +79,4 @@ digit         ::=  "0"..."9"
 
 ### NFA
 
-![alt text](NFADiagrams/FloatinPointNFA.jpg?raw=true)
+![alt text](NFADiagrams/FloatingPointNFA.jpg?raw=true)

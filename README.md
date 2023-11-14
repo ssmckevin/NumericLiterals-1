@@ -63,3 +63,20 @@ digit        ::=  "0"..."9"
 ### DFA
 
 ![alt text](DFADiagrams/HexIntDFA.jpg?raw=true)
+
+
+## Floating Point Literals
+
+```python
+floatnumber   ::=  pointfloat | exponentfloat
+pointfloat    ::=  [digitpart] fraction | digitpart "."
+exponentfloat ::=  (digitpart | pointfloat) exponent
+digitpart     ::=  digit (["_"] digit)*
+fraction      ::=  "." digitpart
+exponent      ::=  ("e" | "E") ["+" | "-"] digitpart
+digit         ::=  "0"..."9"
+```
+
+### NFA
+
+![alt text](NFADiagrams/FloatinPointNFA.jpg?raw=true)
